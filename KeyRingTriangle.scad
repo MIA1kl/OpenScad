@@ -1,4 +1,3 @@
-
 union() {
         translate(v=[18,0,0]) {
         difference() {        
@@ -9,7 +8,6 @@ union() {
         }
         }
     }
-    
     difference() {
         color("grey")
         cylinder(r=17,h=5,$fn=3);
